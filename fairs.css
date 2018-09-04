@@ -1,0 +1,88 @@
+.container1
+{
+	height: 350px;
+	width: 90%;
+	margin: 20px auto;	
+	//background: red;
+}
+
+
+.container1 h1
+{
+	font-family: 'Abel', sans-serif;
+	font-size: 40px;
+	//background: red;
+}
+
+
+p
+{
+	font-family: 'Karla', sans-serif;
+	font-size: 17px;
+	padding: 30px;
+}
+
+.container2
+{
+	height: 520px;
+	width: 90%;
+	margin: 20px auto;
+	//background: green;
+}
+
+.sub2_1
+{
+	height: 350px;
+	width: 200px;
+	float: left;
+	//background: tomato;
+	display: inline-block;
+}
+
+.sub2_2
+{
+	display: inline-block;
+	float: right;
+	height: 350px;
+	width: 900px;
+	//background: cadetblue;
+}
+
+.saru
+{
+	height: 100%;
+	width: 100%;
+	margin-left: 90px;
+}
+
+.container3
+{
+	clear: both;
+	height: 100px;
+	//background: skyblue;
+	padding: 20px;	
+}
+
+.container3 h2
+{
+	font-family: 'Arimo', sans-serif;
+	font-size: 20px;
+}
+
+
+.button
+{
+	background: rgba(0,162,232,0.4);
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	font-family: 'Abel', sans-serif;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 40px;
+	text-shadow: 0px 0px 3px #555; 
+}

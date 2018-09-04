@@ -1,0 +1,112 @@
+body
+{
+	margin: 0px;
+	padding: 0px;	
+}
+
+.container1
+{
+	height: 300px;
+	width: 90%;
+	margin: 20px auto;
+	position: relative;
+	border-radius: 20px;
+}
+
+.slide1,.slide2,.slide3
+{
+	position: absolute;
+	width: 100%;
+	border-radius: 20px;
+	height: 100%;
+}
+
+.slide1
+{
+	background: url(basant1.jpg)no-repeat center;
+	background-size: cover;
+	animation:fade 8s infinite;
+	-webkit-animation:fade 8s infinite;
+} 
+
+.slide2
+{
+	background: url(basant2.jpg)no-repeat center;
+	background-size: cover;
+	animation:fade2 8s infinite;
+	-webkit-animation:fade2 8s infinite;
+}
+
+.slide3
+{
+	background: url(basant3.jpg) no-repeat center;
+	background-size: cover;
+	animation:fade3 8s infinite;
+	-webkit-animation:fade3 8s infinite;
+}
+
+@keyframes fade
+{
+ 0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
+.container1 h1
+{
+	font-family: 'Abel', sans-serif;
+	font-size: 40px;
+	//background: red;
+}
+
+.container2
+{
+	margin-top: 100px;
+	//height: 300px;
+	//background: skyblue;
+}
+
+.container2 h2
+{
+	font-family: 'Abel', sans-serif;
+	font-size: 30px;
+	//background: red;
+	align: center;
+}
+
+ul
+{
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.button
+{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	font-family: 'Abel', sans-serif;
+	margin: 4px 2px;
+	cursor: pointer;
+}

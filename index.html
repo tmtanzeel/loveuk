@@ -1,0 +1,108 @@
+<link rel="stylesheet" href="bootstrap3/css/bootstrap.min.css"/>
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
+
+<link href="https://fonts.googleapis.com/css?family=Baloo|Barrio|Exo+2|Josefin+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="styleBounceLeft.css"/>
+<link rel="stylesheet" href="styleBounceRight.css"/>
+<link rel="stylesheet" href="formstyle.css"/>
+<link rel="stylesheet" href="flipcards.css"/>
+
+<html>
+	<head>
+		<title>
+		MyPage
+		</title>
+				
+		<style>
+			.navbar
+			{
+				margin: 0px;
+				padding: 0px;
+			}
+
+			.flip3d
+			{
+				margin-left: 55px;
+			}
+		
+			.back1, .back2, .back3
+			{
+				background:rgba(0,0,0,0);
+				padding: 130px;
+			}
+	
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#"><i class="fa fa-diamond"></i>IncredibleUttarakhand</a>
+					</div>
+
+					<ul class="nav navbar-nav">
+						<li class="active">
+                            <a href="#">
+                                <i class="fa fa-home" aria-hidden="true"></i>&nbsp; HOME</a></li>
+						<li><a href="holiday-theme.html">HOLIDAY THEMES</a></li>
+						<li><a href="popular-packages.html">POPULAR PACKAGES</a></li>
+						<li><a href="#"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>&nbsp; CONTACTS</a></li>
+						<li><a href="#"><i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp; 011-41401999</a></li>
+					</ul>
+					
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+					</div>
+			</nav>
+		</header>
+			<div class="hero">	
+				<div class="hero-overlay">
+					<div class="myform">
+						<p align="center" class="animated bounceInLeft">
+							This will help us know you better
+						</p>		
+						<div class="aa">
+							<form action="MyValidator.html" method="get">
+								<input class="user" type="email" placeholder="traveller@outlook.com" required/><br><br>
+								<input class="contact" type="text" pattern="[0-9]{10}" placeholder="89795-39377" required/><br><br>
+								<input class="submit" type="submit" value="Take me"/>
+								<input class="clear" type="reset" value="New form"/>					
+							</form>
+						</div>
+						</p>
+						<p align="center" class="animated bounceInRight">
+							Having doubts? Mail us at <a style="color: rgb(240,96,96)" href="http://www.gmail.com" target="_blank">helpmeout@outlook.com</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="offers">
+				<h1 class="home-heading">Popular Tour Packages</h1>
+				<div class="forcards">				
+					<div class="flip3d">
+						<div class="back1"><a href="bugyal-trek.html" class="btn btn-info" role="button">Take a tour</a></div>
+						<div class="front1"><div class="ribbh"><h1>BUGYALS</h1></div></div>
+					</div>
+		
+					<div class="flip3d">
+						<div class="back2"><a href="char-dham.html" class="btn btn-info" role="button">Take a tour</a></div>
+						<div class="front2"><div class="ribbh"><h1>CHAR DHAM</h1></div></div>
+					</div>
+			
+					<div class="flip3d">
+						<div class="back3"><a href="rope-way.html" class="btn btn-info" role="button">Take a tour</a></div>
+						<div class="front3"><div class="ribbh"><h1>ROPEWAY</h1></div></div>
+					</div>
+				</div>
+			</div>		
+	</body>
+</html>

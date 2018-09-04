@@ -1,0 +1,270 @@
+
+
+<div class="destinations">
+	<div class="mycaption"><h1>Pick up a card for yourself</h1>
+
+	</div>
+	
+	<div class="cardholder">
+		<div class="card1">
+			<div class="info">
+			<div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-heart"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Morning run
+                            </span><span class="plan-time">
+                                7
+                                <span>
+                                    AM
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-trophy"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Game
+                                <span class="caption">
+                                    Add friends together
+                                </span>
+                            </span><span class="plan-time">
+                                10
+                                <span>
+                                    AM
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-camera-retro"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Take pictures
+                            </span><span class="plan-time">
+                                2
+                                <span>
+                                    PM
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-cutlery"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Eat dinner
+                                <span class="caption">
+                                    Meet with friends
+                                </span>
+                            </span><span class="plan-time">
+                                6
+                                <span>
+                                    PM
+                                </span>
+                            </span>
+                        </div>
+			</div>
+		
+		</div>
+		
+		
+		<div class="card2">
+			<div class="info">
+			<div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-heart"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Morning run
+                            </span><span class="plan-time">
+                                7
+                                <span>
+                                    AM
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-trophy"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Game
+                                <span class="caption">
+                                    Add friends together
+                                </span>
+                            </span><span class="plan-time">
+                                10
+                                <span>
+                                    AM
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-camera-retro"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Take pictures
+                            </span><span class="plan-time">
+                                2
+                                <span>
+                                    PM
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-cutlery"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Eat dinner
+                                <span class="caption">
+                                    Meet with friends
+                                </span>
+                            </span><span class="plan-time">
+                                6
+                                <span>
+                                    PM
+                                </span>
+                            </span>
+                       </div>
+			</div>	
+		</div>
+		
+		
+		<div class="card3">
+			<div class="info">
+			<div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-heart"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Morning run
+                            </span><span class="plan-time">
+                                7
+                                <span>
+                                    AM
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-trophy"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Game
+                                <span class="caption">
+                                    Add friends together
+                                </span>
+                            </span><span class="plan-time">
+                                10
+                                <span>
+                                    AM
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-camera-retro"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Take pictures
+                            </span><span class="plan-time">
+                                2
+                                <span>
+                                    PM
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-cutlery"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Eat dinner
+                                <span class="caption">
+                                    Meet with friends
+                                </span>
+                            </span><span class="plan-time">
+                                6
+                                <span>
+                                    PM
+                                </span>
+                            </span>
+                        </div>
+			</div>	
+		</div>
+		
+		<div class="card4">
+			<div class="info">
+			<div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-heart"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Morning run
+                            </span><span class="plan-time">
+                                7
+                                <span>
+                                    AM
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-trophy"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Game
+                                <span class="caption">
+                                    Add friends together
+                                </span>
+                            </span><span class="plan-time">
+                                10
+                                <span>
+                                    AM
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-camera-retro"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Take pictures
+                            </span><span class="plan-time">
+                                2
+                                <span>
+                                    PM
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="plan-icon">
+                                <i class="fa fa-cutlery"></i>
+                                <span class="circle"></span>
+                            </span><span class="plan-title">
+                                Eat dinner
+                                <span class="caption">
+                                    Meet with friends
+                                </span>
+                            </span><span class="plan-time">
+                                6
+                                <span>
+                                    PM
+                                </span>
+                            </span>
+                        </div>
+			</div>	
+			
+		</div>
+		
+		
+		
+		
+		
+		
+</div>

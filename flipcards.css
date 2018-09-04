@@ -1,0 +1,169 @@
+		div.offers
+		{
+			height: 400px;
+		}
+		
+		.forcards
+		{
+			background: red;height: 300px
+			padding-top: 20p;
+		
+		}
+			
+		.flip3d
+		{
+			width: 375px;
+			height: 250px;
+			margin-left: 70px;
+			float: left;
+		}
+
+		.front1
+		{
+			position: absolute;
+			-webkit-transform: perspective(375px) rotateY(0deg);
+			transform: perspective(375px) rotateY(0deg);
+			background: url(11.jpg);
+			background-repeat: no-repeat;
+			width: 375px;
+			height: 250px;
+			border-radius: 7px;
+			box-shadow: 0px 0px 20px;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			transition: -webkit-transform .5s linear 0s;
+			transition: transform .5s linear 0s;
+			padding-top: 10px;
+		}
+
+		.back1
+		{
+			position: absolute;
+			-webkit-transform: perspective(375px) rotateY(180deg);
+			transform: perspective(375px) rotateY(180deg);
+			width: 375px;
+			height: 250px;
+			border-radius: 7px;
+			box-shadow: 0px 0px 20px;
+			-webkit-backface-visibility: hidden;
+			transition: -webkit-transform .5s linear 0s;
+			transition: transform .5s linear 0s;				
+		}
+
+		.front2
+		{
+			position: absolute;
+			-webkit-transform: perspective(375px) rotateY(0deg);
+			transform: perspective(375px) rotateY(0deg);
+			background: url(88.jpg);
+			background-repeat: no-repeat;
+			width: 375px;
+			height: 250px;
+			border-radius: 7px;
+			box-shadow: 0px 0px 20px;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			transition: -webkit-transform .5s linear 0s;
+			transition: transform .5s linear 0s;
+			padding-top: 10px;
+		}
+
+		.back2
+		{
+			position: absolute;
+			-webkit-transform: perspective(375px) rotateY(180deg);
+			transform: perspective(375px) rotateY(180deg);
+		 	background-color: rgb(247,245,244);
+			width: 375px;
+			height: 250px;
+			border-radius: 7px;
+			box-shadow: 0px 0px 20px;
+			-webkit-backface-visibility: hidden;
+			transition: -webkit-transform .5s linear 0s;
+			transition: transform .5s linear 0s;				
+		}
+
+
+		.front3
+		{
+			position: absolute;
+			-webkit-transform: perspective(375px) rotateY(0deg);
+			transform: perspective(375px) rotateY(0deg);
+			background: url(33.jpg);
+			background-repeat: no-repeat;
+			width: 375px;
+			height: 250px;
+			border-radius: 7px;
+			box-shadow: 0px 0px 20px;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			transition: -webkit-transform .5s linear 0s;
+			transition: transform .5s linear 0s;
+			padding-top: 10px;
+		}
+
+		.back3
+		{
+			position: absolute;
+			-webkit-transform: perspective(375px) rotateY(180deg);
+			transform: perspective(375px) rotateY(180deg);
+		 	background-color: rgb(247,245,244);
+			width: 375px;
+			height: 250px;
+			border-radius: 7px;
+			box-shadow: 0px 0px 20px;
+			-webkit-backface-visibility: hidden;
+			transition: -webkit-transform .5s linear 0s;
+			transition: transform .5s linear 0s;			
+		}
+		.flip3d:hover > .front2
+		{
+			-webkit-transform: perspective(375px) rotateY(-180deg);
+			transform: perspective(375px) rotateY(-180deg);
+		}
+
+		.flip3d:hover > .back1
+		{
+			-webkit-transform: perspective(375px) rotateY(0deg);
+			transform: perspective(375px) rotateY(0deg);
+		}
+
+		.flip3d:hover > .front1
+		{
+			-webkit-transform: perspective(375px) rotateY(-180deg);
+			transform: perspective(375px) rotateY(-180deg);
+		}
+
+		.flip3d:hover > .back2
+		{
+			-webkit-transform: perspective(375px) rotateY(0deg);
+			transform: perspective(375px) rotateY(0deg);
+		}
+
+
+		.flip3d:hover > .front3
+		{
+			-webkit-transform: perspective(375px) rotateY(-180deg);
+			transform: perspective(375px) rotateY(-180deg);
+		}
+
+		.flip3d:hover > .back3
+		{
+			-webkit-transform: perspective(375px) rotateY(0deg);
+			transform: perspective(375px) rotateY(0deg);
+		}
+
+		div.ribbh
+		{
+			background: url(ribb.png);
+			background-repeat: no-repeat;
+			height: 45;
+			padding-top: 0px;
+			padding-left: 10px;
+		}
+
+		h1
+		{
+			font-size: 30px;
+			color: #fff;
+		}

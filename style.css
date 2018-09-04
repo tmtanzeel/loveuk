@@ -1,0 +1,39 @@
+			body
+			{
+				background: url(wall1.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+				margin: 0px;padding: 0px;
+			}
+			
+			div.hero
+			{
+				height: 600px;
+				z-index: -5;			
+			}
+
+			div.hero-overlay
+			{
+				height: 1000px;
+				background: rgba(255,255,255,0.2);				
+				z-index: -10;
+				padding: 100px;
+			}
+
+			div.myform
+			{
+				marging: 0px;padding:50px;
+				z-index: -15;
+				display: inline-block;			
+				height: 100%;				
+			}
+			
+			h1.home-heading
+			{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 45px;
+				text-align: center;
+				margin: 25px 0 20px 0;
+				font-weight: 400;
+			}
